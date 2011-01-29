@@ -55,4 +55,8 @@ mercurial을 설치하고 싶어서 아래와 같이 입력했습니다.
 
 homebrew는 많은 사람들이 패키지(포뮬러)를 제작합니다. [공식 github에서도 그 패키지](https://github.com/mxcl/homebrew/pulls)를 찾을 수 있고 다른 `git` 리포에서도 찾을 수 있습니다.
 
-또, 포뮬러는 인터넷에 해당 프로그램에 대한 URI가 있다면 스스로 만들 수 있습니다. 이 과정은 매우 쉽습니다. [`brew create http://example.com/foo-0.1.tar.gz`](https://github.com/mxcl/homebrew/wiki/Formula-Cookbook) 명령이면 포뮬러의 얼개가 작성됩니다. 포뮬러에 의해 설치된 프로그램은 별도의 디렉토리에서 다른 포뮬러와 별도로 관리됩니다!
+또, 포뮬러는 인터넷에 해당 프로그램에 대한 URI가 있다면 스스로 만들 수 있습니다. 이 과정은 매우 쉽습니다.
+
+    brew create http://example.com/foo-0.1.tar.gz
+
+이제 포뮬러의 얼개가 작성되었습니다. [버전 정보 등을 추가](https://github.com/mxcl/homebrew/wiki/Formula-Cookbook)하면 끝입니다. 포뮬러에 의해 설치된 프로그램은 별도의 디렉토리에서 다른 포뮬러와 별도로 관리됩니다!

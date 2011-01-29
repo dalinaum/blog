@@ -14,9 +14,9 @@
 
 다음 터미널부터 perlbrew와 기타 perl등이 제대로 연결되어 수행됩니다.     
 
-    perlbrew install perl-5.12.2
+    perlbrew install perl-5.12.3 -D usethreads
 
-perl-5.12.2를 설치합니다.     
+perl-5.12.3을 쓰레드 사용 버전으로 설치합니다.     
 
     perlbrew list
 

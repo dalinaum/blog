@@ -29,8 +29,7 @@
 
 설치된 모듈 전체를 뽑아 업데이트하거나 로컬 영역에 설치한다.
     
-    perl -MExtUtils::Installed -le "print for ExtUtils::Installed-
->new->modules" > modules
+    perl -MExtUtils::Installed -le "print for ExtUtils::Installed->new->modules" > modules
     type modules | perl -pe "system \"cpanm -v $_\""
 
 그리고 개인적인 취향 때문에 `ack`를 설치했다. `ack`는 조금 더 현대적인 `grep` 구현이다.
